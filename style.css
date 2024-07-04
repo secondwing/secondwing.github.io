@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.image-container img {
+  width: 600px;
+  height: 600px;
+  margin: 0 20px;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+.input-container input {
+  padding: 10px;
+  width: 450px;
+  height: 44px;
+  box-sizing: border-box;
+}
+
+.input-container button {
+  padding: 10px;
+  height: 44px;
+  width: 80px;
+  cursor: pointer;
+  box-sizing: border-box;
+  line-height: 24px; /* Adjust this line-height to align with input text */
+  vertical-align: middle; /* Ensures vertical alignment */
+}
+
+.message-container {
+  margin-top: 50px;
+}
+
+.message-container p {
+  font-size: 24px;
+  color: green;
+}
+
+.message-container img {
+  margin-top: 20px;
+  width: 400px;
+  height: auto;
+}
+
+.link-container {
+  margin-top: 20px;
+}
+
+.back-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-link:hover {
+  background-color: #0056b3;
+}
